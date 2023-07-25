@@ -5,7 +5,7 @@ import type Entry from '@/types/Entry'
 import { inject } from 'vue'
 import { userInjectionKey } from '@/injectionsKeys'
 const { findEmoji } = UseEmojis()
-export interface Props {
+interface Props {
   entry: Entry
 }
 const props = defineProps<Props>()
